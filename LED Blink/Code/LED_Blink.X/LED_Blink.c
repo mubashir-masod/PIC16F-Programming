@@ -15,8 +15,8 @@ void main(void)
     while (1)
     {
         PORTB = 0x01;       // Turn ON LED
-        __delay_ms (1000);   // Wait 0.5 Sec
+        __delay_ms (1000);   // Wait 1 Sec
         PORTB = 0x00;       // Turn OFF LED
-        __delay_ms (1000);   // Wait 0.5 Sec
+        __delay_ms (1000);   // Wait 1 Sec
     }
 }
